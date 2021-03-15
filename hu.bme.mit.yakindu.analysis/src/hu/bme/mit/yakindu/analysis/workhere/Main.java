@@ -37,7 +37,7 @@ public class Main {
 			}
 		}
 		
-		//Tranzíciók listázása 2.3
+		/*//Tranzíciók listázása 2.3
 		System.out.println("-----Tranzíciók-----");
 		iterator = s.eAllContents();
 		while (iterator.hasNext()) {
@@ -90,7 +90,7 @@ public class Main {
 					System.out.println("State" + number);
 				}
 			}
-		}
+		}*/
 		
 
 		
