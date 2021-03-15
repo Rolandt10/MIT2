@@ -35,7 +35,7 @@ public class RunStatechart {
 					print(s);
 					break;
 				case "white":
-					s.raiseWhite();
+					//s.raiseWhite();
 					s.runCycle();
 					print(s);
 					break;
@@ -47,7 +47,7 @@ public class RunStatechart {
 	}
 
 	public static void print(IExampleStatemachine s) {
-		System.out.println("W = " + s.getSCInterface().getWhiteTime());
+		//System.out.println("W = " + s.getSCInterface().getWhiteTime());
 		System.out.println("B = " + s.getSCInterface().getBlackTime());
 	}
 }
